@@ -16,7 +16,7 @@
 i =1
 num =int (input("number of lines"))
 while i<=num:
-	print(' '*(num-i) +'*'*(i+1))
+	print(' '*(num-i) +'*'*i)
 	i+=1
 
 
